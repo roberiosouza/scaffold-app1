@@ -17,6 +17,7 @@ void main() {
         child: Padding(
           padding: EdgeInsets.all(16),
           child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Text("Ação 1"),
               Text("Ação 2")
